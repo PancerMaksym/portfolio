@@ -1,0 +1,62 @@
+@use './variables' as *;
+
+#home {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 56px - 48px);
+  justify-content: space-between;
+
+  .circle{
+    position: absolute;
+    background-color: $color-conter;
+    height: 15vw;
+    aspect-ratio: 1/1;
+    width: auto;
+    z-index: -1;
+    border-radius: 50%;
+    filter: blur(8px);
+    
+
+    &:first-child {
+      top: 52px;
+      right: 25px;
+    }
+    &:first-child + * {
+      left: -7.5vw;
+      top: 52px;
+    }
+    &:first-child + * + * {
+      left: 15%;
+      bottom: 0px;
+    }
+  }
+
+  .hello {
+    font-family: "Funnel Sans";
+    font-weight: 600;
+
+    h1 {
+      font-size: 7rem;
+      line-height: 90%;
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 3rem;
+      margin: 0 0 16px 0;
+    }
+  }
+
+  .short-text {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .scroll-text {
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+}

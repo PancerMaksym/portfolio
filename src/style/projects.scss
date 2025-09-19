@@ -1,0 +1,63 @@
+@use "./variables" as *;
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  h3 {
+    text-align: center;
+  }
+
+  .project {
+    .text {
+      flex: 1;
+    }
+
+    .image {
+      flex: 1;
+    }
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    background-color: #ffffff;
+    border-radius: 25px;
+
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 16px 0 0 0;
+      a {
+        display: flex;
+        padding: 8px 72px;
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        background-color: $color-primary;
+        border-radius: 9px;
+        color: #ffffff;
+        font-weight: bolder;
+      }
+
+      .technology {
+        color: #787878;
+
+        h4 {
+          font-weight: normal;
+          margin: 0 0 8px 0;
+        }
+        .icon {
+          display: flex;
+          flex-direction: row;
+          gap: 8px;
+        }
+        a {
+          text-align: center; /* вирівнювання тексту по центру */
+          display: block; /* щоб text-align працював */
+        }
+      }
+    }
+  }
+}
