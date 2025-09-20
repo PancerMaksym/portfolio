@@ -1,4 +1,4 @@
-@use './variables' as *;
+@use "./variables" as *;
 
 #home {
   margin: 0;
@@ -7,7 +7,7 @@
   height: calc(100vh - 56px - 48px);
   justify-content: space-between;
 
-  .circle{
+  .circle {
     position: absolute;
     background-color: $color-conter;
     height: 15vw;
@@ -16,7 +16,6 @@
     z-index: -1;
     border-radius: 50%;
     filter: blur(8px);
-    
 
     &:first-child {
       top: 52px;
@@ -58,5 +57,50 @@
     text-align: center;
     font-weight: 100;
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (width < 900px) {
+  #home {
+    .hello {
+      h1 {
+        font-size: 5rem;
+        line-height: 90%;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 3rem;
+        margin: 0 0 16px 0;
+      }
+    }
+  }
+}
+
+@media screen and (width < 450px) {
+  #home {
+    .hello {
+      h1 {
+        font-size: 4rem;
+        line-height: 90%;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        margin: 0 0 16px 0;
+      }
+    }
+    .short-text {
+      text-align: right;
+      font-size: 1.25rem;
+      font-weight: 400;
+    }
+
+    .scroll-text {
+      text-align: center;
+      font-weight: 100;
+      font-size: 1rem;
+    }
   }
 }

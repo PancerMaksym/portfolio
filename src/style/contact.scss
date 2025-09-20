@@ -129,3 +129,13 @@
     }
   }
 }
+
+@media screen and (width < 900px) {
+  #contact {
+    flex-direction: column;
+
+    button {
+      margin-top: 16px;
+    }
+  }
+}

@@ -2,7 +2,6 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import "../style/about.scss"
 
-
 const About = () => {
   return (
     <div className="page" id="about">
@@ -39,7 +38,12 @@ const About = () => {
           <div className="author">Paul Rand</div>
         </div>
         <div className="photo">
-          <StaticImage alt="Pantsyr Maksym" src='../images/photo.png'/>
+          <StaticImage
+            src="../images/photo.png"
+            alt="Profile illustration"
+            placeholder="blurred"
+            layout="constrained"
+          />
         </div>
       </div>
       <div className="right">

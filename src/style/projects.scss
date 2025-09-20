@@ -10,6 +10,13 @@
   }
 
   .project {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    background-color: #ffffff;
+    border-radius: 25px;
+
     .text {
       flex: 1;
     }
@@ -17,12 +24,6 @@
     .image {
       flex: 1;
     }
-    padding: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-    background-color: #ffffff;
-    border-radius: 25px;
 
     .footer {
       display: flex;
@@ -39,6 +40,7 @@
         border-radius: 9px;
         color: #ffffff;
         font-weight: bolder;
+        justify-content: center;
       }
 
       .technology {
@@ -54,9 +56,30 @@
           gap: 8px;
         }
         a {
-          text-align: center; /* вирівнювання тексту по центру */
-          display: block; /* щоб text-align працював */
+          text-align: center;
+          display: block;
+          justify-content: center;
         }
+      }
+    }
+  }
+}
+
+@media screen and (width < 900px) {
+  #projects {
+    .project {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+@media screen and (width < 450px) {
+  #projects {
+    .project {
+      .footer {
+        gap: 16px;
+        flex-direction: column;
       }
     }
   }
