@@ -41,8 +41,8 @@
       overflow: hidden;
 
       img {
-        object-fit: cover; // картинка масштабується й обрізається
-        object-position: bottom; // обрізати зверху (можна center/bottom)
+        object-fit: cover;
+        object-position: bottom;
       }
     }
   }

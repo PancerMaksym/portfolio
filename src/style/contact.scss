@@ -134,8 +134,10 @@
   #contact {
     flex-direction: column;
 
-    button {
-      margin-top: 16px;
+    .form {
+      button {
+        margin-top: 16px;
+      }
     }
   }
 }
