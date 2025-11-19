@@ -44,6 +44,7 @@
       display: flex;
       flex-direction: column;
       gap: 16px;
+
       input,
       textarea {
         border-radius: 9px;
@@ -53,6 +54,7 @@
         padding: 8px 8px;
       }
     }
+
     button {
       border-radius: 9px;
       padding: 12px;
@@ -61,7 +63,14 @@
       border: 0;
       background-color: $color-primary;
       color: #fff;
+      cursor: pointer;
+
+      &:active{
+        background-color: #e23c00;
+      }
     }
+
+    
   }
 
   .data {
@@ -128,6 +137,7 @@
       }
     }
   }
+
 }
 
 @media screen and (width < 900px) {
