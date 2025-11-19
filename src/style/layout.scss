@@ -6,7 +6,7 @@ body {
   background-color: #F2ECEC;
 }
 
-main {
+main{
   margin: 24px 0 24px 0;
   display: flex;
   flex-direction: column;
@@ -16,15 +16,32 @@ main {
   padding-right: 96px;
 }
 
+footer{
+  margin: 24px 0 24px 0;
+  padding-left: 96px;
+  padding-right: 96px;
+
+  a{
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+      color: $color-text;
+    }
+  }
+}
+
 @media (width <= 893px) {
-  main {
+  main,
+  footer {
     padding-left: 32px;
     padding-right: 32px;
   }
 }
 
 @media (width <= 480px) {
-  main {
+  main,
+  footer {
     padding-left: 16px;
     padding-right: 16px;
   }
