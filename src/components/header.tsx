@@ -10,14 +10,13 @@ const Header = ({ siteTitle }: { siteTitle: string }) => {
     const section = document.getElementById(id)
     if (section) {
       section.scrollIntoView({ behavior: "smooth" })
-      setMenuOpen(false) // закриваємо мобільне меню після кліку
+      setMenuOpen(false)
     } else {
       console.error("Section not found:", id)
     }
   }
 
   useEffect(() => {
-    // ✅ перевірка ширини екрану
     const checkWidth = () => setIsDesktop(window.innerWidth > 900)
     checkWidth()
     window.addEventListener("resize", checkWidth)
@@ -45,7 +44,7 @@ const Header = ({ siteTitle }: { siteTitle: string }) => {
     boxElList.forEach(el => io.observe(el))
 
     return () => {
-      io.disconnect() // ✅ cleanup
+      io.disconnect()
     }
   }, [])
 

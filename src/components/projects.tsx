@@ -8,6 +8,7 @@ import {
   SiGraphql,
   SiHtml5,
   SiMongodb,
+  SiNestjs,
   SiNextdotjs,
   SiPostgresql,
   SiReact,
@@ -49,27 +50,31 @@ const Projects = () => {
         <div className="text">
           <h3>Create Resume</h3>
           <div>
-            The web application is built with Next.js, using TypeScript for type
-            safety and SCSS for styling. JWT is used for secure registration and
-            login, while user data is stored in MongoDB.
+            The frontend is built with Next.js using TypeScript for type safety
+            and SCSS for styling. It provides a responsive user interface where
+            users can search for specialists by tags, create and manage their
+            resumes, and upload photos.
             <br />
-            Users can search for specialists by tags or log in to create their
-            own resume. Photos can be added to resumes and are stored on
-            Cloudinary, providing easy media management.
+            The backend is built with NestJS and is responsible for
+            authentication and data processing. JWT (JSON Web Tokens) are used
+            for secure user registration and authentication. User data is stored
+            in PostgreSQL, while uploaded images are stored and managed using
+            Cloudinary.
           </div>
           <div className="footer">
             <div className="technology">
               <h4>Technologies</h4>
               <div className="icon">
+                <SiNextdotjs />
+                <SiNestjs />
                 <SiSass />
                 <SiTypescript />
-                <SiNextdotjs />
                 <SiGraphql />
-                <SiMongodb />
+                <SiPostgresql />
                 <SiCloudinary />
               </div>
             </div>
-            <Link to="https://create-resume-wheat.vercel.app/">Visit</Link>
+            <Link to="https://create-resume-wheat.vercel.app">Visit</Link>
           </div>
         </div>
         <div className="image">
