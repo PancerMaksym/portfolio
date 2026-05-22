@@ -55,10 +55,21 @@
     font-weight: 400;
   }
 
-  .scroll-text {
-    text-align: center;
-    font-weight: 100;
-    font-size: 1.5rem;
+  .scroll-bundle {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+
+    svg{
+      height: 100%;
+    }
+
+    .scroll-text {
+      font-weight: 100;
+      font-size: 1.5rem;
+    }
   }
 }
 

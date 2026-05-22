@@ -17,8 +17,15 @@
     background-color: #ffffff;
     border-radius: 25px;
 
-    .text {
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
       flex: 1;
+      justify-content: space-between;
+      .text {
+        
+      }
     }
 
     .image {
@@ -53,7 +60,7 @@
         .icon {
           display: flex;
           flex-direction: row;
-          gap: 8px;
+          gap: clamp(2px, 1vw, 12px);
         }
         a {
           text-align: center;

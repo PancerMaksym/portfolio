@@ -7,20 +7,27 @@ const About = () => {
     <div className="page" id="about">
       <div className="left">
         <div className="who">
-          <h3>Who i am?</h3>
-          <div>
-            I'm a passionate web developer with a strong background in frontend
-            and backend technologies. I love creating clean and functional
-            designs that enhance user experience
-          </div>
+          <h3>Who am I?</h3>
+
+          <p>
+            I'm a web developer focused on building fast, responsive, and
+            maintainable applications using modern frontend and backend
+            technologies.
+          </p>
+
+          <p>
+            My goal is to create clean user interfaces and efficient systems
+            that provide a smooth user experience.
+          </p>
         </div>
         <div className="what">
           <h3>What i do?</h3>
           <div className="variants">
-            <div>API Integration</div>
-            <div>Backend</div>
-            <div>UI/UX Basics & Design in Figma</div>
             <div>Frontend Development</div>
+            <div>Backend Development</div>
+            <div>UI/UX Basics & Design in Figma</div>
+            <div>Simple Architecture</div>
+            <div>Microservice Architecture</div>
           </div>
         </div>
       </div>

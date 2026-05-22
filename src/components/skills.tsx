@@ -17,6 +17,9 @@ import {
   SiGithub,
   SiPostman,
   SiShopify,
+  SiNestjs,
+  SiKubernetes,
+  SiDocker,
 } from "react-icons/si"
 
 const Skills = () => {
@@ -74,8 +77,8 @@ const Skills = () => {
             <span>React</span>
           </div>
           <div className="tech-item">
-            <SiGatsby className="icon gatsby" />
-            <span>Gatsby</span>
+            <SiNestjs className="icon nest" />
+            <span>NestJs</span>
           </div>
           <div className="tech-item">
             <SiNextdotjs className="icon next" />
@@ -88,6 +91,14 @@ const Skills = () => {
           <div className="tech-item">
             <SiPostgresql className="icon postgres" />
             <span>PostgreSQL</span>
+          </div>
+          <div className="tech-item">
+            <SiKubernetes className="icon k8s" />
+            <span>K8s</span>
+          </div>
+          <div className="tech-item">
+            <SiDocker className="icon docker" />
+            <span>Docker</span>
           </div>
           <div className="tech-item">
             <SiSass className="icon scss" />

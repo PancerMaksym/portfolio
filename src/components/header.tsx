@@ -9,7 +9,14 @@ const Header = ({ siteTitle }: { siteTitle: string }) => {
   const handleScroll = (id: string) => {
     const section = document.getElementById(id)
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" })
+      const offset = 64
+
+      const top = section.getBoundingClientRect().top + window.scrollY - offset
+
+      window.scrollTo({
+        top,
+        behavior: "smooth",
+      })
       setMenuOpen(false)
     } else {
       console.error("Section not found:", id)
@@ -37,7 +44,10 @@ const Header = ({ siteTitle }: { siteTitle: string }) => {
           }
         })
       },
-      { threshold: 0.6 }
+      {
+        threshold: 0.2,
+        rootMargin: "-100px 0px -100px 0px",
+      }
     )
 
     const boxElList = document.querySelectorAll(".page")
@@ -51,11 +61,21 @@ const Header = ({ siteTitle }: { siteTitle: string }) => {
   if (isDesktop) {
     return (
       <header className="header">
-        <button id="home-button" onClick={() => handleScroll("home")}>HOME</button>
-        <button id="about-button" onClick={() => handleScroll("about")}>ABOUT ME</button>
-        <button id="skills-button" onClick={() => handleScroll("skills")}>SKILLS</button>
-        <button id="projects-button" onClick={() => handleScroll("projects")}>PROJECTS</button>
-        <button id="contact-button" onClick={() => handleScroll("contact")}>CONTACT</button>
+        <button id="home-button" onClick={() => handleScroll("home")}>
+          HOME
+        </button>
+        <button id="about-button" onClick={() => handleScroll("about")}>
+          ABOUT ME
+        </button>
+        <button id="skills-button" onClick={() => handleScroll("skills")}>
+          SKILLS
+        </button>
+        <button id="projects-button" onClick={() => handleScroll("projects")}>
+          PROJECTS
+        </button>
+        <button id="contact-button" onClick={() => handleScroll("contact")}>
+          CONTACT
+        </button>
       </header>
     )
   }
@@ -68,11 +88,21 @@ const Header = ({ siteTitle }: { siteTitle: string }) => {
 
       {menuOpen && (
         <div className="menu-list">
-          <button id="home-button" onClick={() => handleScroll("home")}>HOME</button>
-          <button id="about-button" onClick={() => handleScroll("about")}>ABOUT ME</button>
-          <button id="skills-button" onClick={() => handleScroll("skills")}>SKILLS</button>
-          <button id="projects-button" onClick={() => handleScroll("projects")}>PROJECTS</button>
-          <button id="contact-button" onClick={() => handleScroll("contact")}>CONTACT</button>
+          <button id="home-button" onClick={() => handleScroll("home")}>
+            HOME
+          </button>
+          <button id="about-button" onClick={() => handleScroll("about")}>
+            ABOUT ME
+          </button>
+          <button id="skills-button" onClick={() => handleScroll("skills")}>
+            SKILLS
+          </button>
+          <button id="projects-button" onClick={() => handleScroll("projects")}>
+            PROJECTS
+          </button>
+          <button id="contact-button" onClick={() => handleScroll("contact")}>
+            CONTACT
+          </button>
         </div>
       )}
     </div>

@@ -1,6 +1,7 @@
 import React from "react"
 import "../style/home.scss"
-import "@fontsource/lancelot";
+import "@fontsource/lancelot"
+import { FiArrowDown, FiArrowDownCircle } from "react-icons/fi"
 
 const Home = () => {
   return (
@@ -10,14 +11,24 @@ const Home = () => {
       <div className="circle" />
       <div className="hello">
         <h3 className="i-am">I'm a</h3>
-        <h1 className="software">Web<br/> Developer</h1>
+        <h1 className="software">
+          Web
+          <br /> Developer
+        </h1>
       </div>
       <div className="short-text">
-        Hi, i'm Pantsyr Maksym,<br/>a web-developer. <br/>Let's create a cool<br/>site together.
+        Hi, i'm Pantsyr Maksym,
+        <br />a web-developer. <br />
+        Let's create a cool
+        <br />
+        site together.
       </div>
-      <div className="scroll-text">Scroll down</div>
+      <div className="scroll-bundle">
+        <div className="scroll-text">Scroll down</div>
+        <FiArrowDown />
+      </div>
     </div>
   )
 }
 
-export default Home;
+export default Home
