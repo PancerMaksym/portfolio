@@ -1,7 +1,7 @@
 import React from "react"
 import "../style/home.scss"
 import "@fontsource/lancelot"
-import { FiArrowDown, FiArrowDownCircle } from "react-icons/fi"
+import { FiArrowDown } from "react-icons/fi"
 
 const Home = () => {
   return (

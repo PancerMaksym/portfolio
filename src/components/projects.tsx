@@ -9,7 +9,6 @@ import {
   SiGraphql,
   SiHtml5,
   SiKubernetes,
-  SiMongodb,
   SiNestjs,
   SiNextdotjs,
   SiPostgresql,
