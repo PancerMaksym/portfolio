@@ -7,7 +7,6 @@ import {
   SiTypescript,
   SiGraphql,
   SiReact,
-  SiGatsby,
   SiNextdotjs,
   SiMongodb,
   SiPostgresql,
