@@ -2,7 +2,6 @@ import React from "react"
 import "../style/skills.scss"
 import {
   SiHtml5,
-  SiCss3,
   SiJavascript,
   SiTypescript,
   SiGraphql,
@@ -20,6 +19,7 @@ import {
   SiKubernetes,
   SiDocker,
 } from "react-icons/si"
+import { FaCss3Alt } from "react-icons/fa"
 
 const Skills = () => {
   return (
@@ -56,7 +56,7 @@ const Skills = () => {
             <span>HTML</span>
           </div>
           <div className="tech-item">
-            <SiCss3 className="icon css" />
+            <FaCss3Alt className="icon css" />
             <span>CSS</span>
           </div>
           <div className="tech-item">

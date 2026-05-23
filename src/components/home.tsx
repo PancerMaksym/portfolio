@@ -1,7 +1,7 @@
 import React from "react"
 import "../style/home.scss"
 import "@fontsource/lancelot"
-import { FiArrowDown } from "react-icons/fi"
+import { FaArrowDown } from "react-icons/fa"
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
       </div>
       <div className="scroll-bundle">
         <div className="scroll-text">Scroll down</div>
-        <FiArrowDown />
+        <FaArrowDown />
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react"
 import "../style/contact.scss"
 import { SiGithub, SiTelegram, SiGmail } from "react-icons/si"
-import { FiCopy, FiCheck } from "react-icons/fi"
+import { FaCopy, FaCheck } from "react-icons/fa"
 import emailjs from "@emailjs/browser"
 import { Bounce, ToastContainer, toast } from "react-toastify"
 import { IconType } from "react-icons"
@@ -32,7 +32,7 @@ const ContactItem = ({
       <Icon className={`icon ${name}`} />
       <div>{text}</div>
       <button onClick={handleCopy} disabled={copied}>
-        {copied ? <FiCheck className="check" /> : <FiCopy className="copy" />}
+        {copied ? <FaCheck className="check" /> : <FaCopy className="copy" />}
       </button>
     </div>
   )
