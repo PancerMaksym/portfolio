@@ -1,7 +1,6 @@
 import React from "react"
 import "../style/skills.scss"
 import {
-  SiHtml5,
   SiJavascript,
   SiTypescript,
   SiGraphql,
@@ -19,7 +18,7 @@ import {
   SiKubernetes,
   SiDocker,
 } from "react-icons/si"
-import { FaCss3Alt } from "react-icons/fa"
+import { FaHtml5 ,FaCss3Alt } from "react-icons/fa"
 
 const Skills = () => {
   return (
@@ -52,7 +51,7 @@ const Skills = () => {
         <h3>Technical skill</h3>
         <div className="variants">
           <div className="tech-item">
-            <SiHtml5 className="icon html" />
+            <FaHtml5 className="icon html" />
             <span>HTML</span>
           </div>
           <div className="tech-item">
