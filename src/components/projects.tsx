@@ -49,13 +49,41 @@ const Projects = () => {
                 <SiPostgresql />
               </div>
             </div>
-            <Link to="https://github.com/PancerMaksym/iot-monorepo/">
+            <a target="_blank"  href="https://github.com/PancerMaksym/iot-monorepo/">
               Visit
-            </Link>
+            </a>
           </div>
         </div>
         <div className="image">
           <StaticImage alt="IotService" src="../images/iot.png" />
+        </div>
+      </div>
+      <div className="project">
+        <div className="info">
+          <div className="text">
+            <h3>MyPortfolio</h3>
+            <div>
+              Developed a personal portfolio website using React, Next.js, and
+              SCSS. Built a fully responsive and scalable interface with custom
+              UI components, smooth navigation, and optimized performance.
+              Deployed on Vercel for fast and reliable hosting.
+            </div>
+          </div>
+          <div className="footer">
+            <div className="technology">
+              <h4>Technologies</h4>
+              <div className="icon">
+                <SiHtml5 />
+                <SiSass />
+                <SiTypescript />
+                <SiGatsby />
+              </div>
+            </div>
+            <a target="_blank" href="https://my-own-portfolio-alpha.vercel.app/" >Visit</a>
+          </div>
+        </div>
+        <div className="image">
+          <StaticImage alt="BuisnesCard" src="../images/MyPortfolio.png" />
         </div>
       </div>
       <div className="project">
@@ -79,7 +107,7 @@ const Projects = () => {
                 <SiGatsby />
               </div>
             </div>
-            <Link to="https://b-card-mu.vercel.app/">Visit</Link>
+            <a target="_blank"  href="https://b-card-mu.vercel.app/">Visit</a>
           </div>
         </div>
         <div className="image">
@@ -117,7 +145,7 @@ const Projects = () => {
                 <SiCloudinary />
               </div>
             </div>
-            <Link to="https://create-resume-wheat.vercel.app">Visit</Link>
+            <a target="_blank"  href="https://github.com/PancerMaksym/portfilio-service/">Visit</a>
           </div>
         </div>
         <div className="image">
@@ -151,7 +179,7 @@ const Projects = () => {
                 <SiShopify />
               </div>
             </div>
-            <Link to="https://next-shopify-xi.vercel.app/">Visit</Link>
+            <a target="_blank"  href="https://next-shopify-xi.vercel.app/">Visit</a>
           </div>
         </div>
         <div className="image">
@@ -182,7 +210,7 @@ const Projects = () => {
                 <SiVite />
               </div>
             </div>
-            <Link to="https://info-weather.vercel.app/">Visit</Link>
+            <a target="_blank"  href="https://info-weather.vercel.app/">Visit</a>
           </div>
         </div>
         <div className="image">
