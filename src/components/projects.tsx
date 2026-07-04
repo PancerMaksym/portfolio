@@ -25,15 +25,16 @@ const Projects = () => {
       <div className="project">
         <div className="info">
           <div className="text">
-            <h3>IoT Setvice</h3>
+            <h3>IoT Service</h3>
             <div>
-              Developed a distributed IoT system for real-time audio data
-              collection, streaming, and anomaly detection. The system is built
-              on a microservices architecture (Nx, NestJS, Next.js), using
-              ESP32-S3 for data acquisition, TCP/HTTP/WebSocket for
-              communication, and TensorFlow.js (YAMNet) for audio anomaly
-              detection. Implemented audio streaming, signal processing, event
-              storage, and a web-based monitoring interface.
+              Built a distributed IoT system for real-time audio data
+              collection, streaming, and anomaly detection. Built on a
+              microservices architecture using Nx, NestJS and Next.js. Designed
+              communication layer using TCP, HTTP and WebSocket protocols.
+              Integrated ESP32-S3 devices for data acquisition. Implemented
+              real-time audio streaming and signal processing pipeline. Added
+              anomaly detection using TensorFlow.js (YAMNet). Developed event
+              storage and a web-based monitoring interface.
             </div>
           </div>
           <div className="footer">
@@ -49,7 +50,10 @@ const Projects = () => {
                 <SiPostgresql />
               </div>
             </div>
-            <a target="_blank"  href="https://github.com/PancerMaksym/iot-monorepo/">
+            <a
+              target="_blank"
+              href="https://github.com/PancerMaksym/iot-monorepo/"
+            >
               Visit
             </a>
           </div>
@@ -64,9 +68,9 @@ const Projects = () => {
             <h3>MyPortfolio</h3>
             <div>
               Developed a personal portfolio website using React, Next.js, and
-              SCSS. Built a fully responsive and scalable interface with custom
-              UI components, smooth navigation, and optimized performance.
-              Deployed on Vercel for fast and reliable hosting.
+              SCSS. Built a fully responsive and scalable UI with custom
+              components with custom UI components, smooth navigation, and
+              optimized performance. Deployed on Vercel for production hosting.
             </div>
           </div>
           <div className="footer">
@@ -79,7 +83,12 @@ const Projects = () => {
                 <SiGatsby />
               </div>
             </div>
-            <a target="_blank" href="https://my-own-portfolio-alpha.vercel.app/" >Visit</a>
+            <a
+              target="_blank"
+              href="https://my-own-portfolio-alpha.vercel.app/"
+            >
+              Visit
+            </a>
           </div>
         </div>
         <div className="image">
@@ -89,7 +98,7 @@ const Projects = () => {
       <div className="project">
         <div className="info">
           <div className="text">
-            <h3>Buisnes Card</h3>
+            <h3>Business Card</h3>
             <div>
               My personal business card website, built with GatsbyJS and SCSS.
               Features: responsive design, contact details with
@@ -107,7 +116,9 @@ const Projects = () => {
                 <SiGatsby />
               </div>
             </div>
-            <a target="_blank"  href="https://b-card-mu.vercel.app/">Visit</a>
+            <a target="_blank" href="https://b-card-mu.vercel.app/">
+              Visit
+            </a>
           </div>
         </div>
         <div className="image">
@@ -117,18 +128,13 @@ const Projects = () => {
       <div className="project">
         <div className="info">
           <div className="text">
-            <h3>Create Resume</h3>
+            <h3>ResumeHub</h3>
             <div>
-              The frontend is built with Next.js using TypeScript for type
-              safety and SCSS for styling. It provides a responsive user
-              interface where users can search for specialists by tags, create
-              and manage their resumes, and upload photos.
-              <br />
-              The backend is built with NestJS and is responsible for
-              authentication and data processing. JWT (JSON Web Tokens) are used
-              for secure user registration and authentication. User data is
-              stored in PostgreSQL, while uploaded images are stored and managed
-              using Cloudinary.
+              Built a full-stack application using Next.js and NestJS.
+              Implemented JWT-based authentication and user management system.
+              Designed REST API for resume creation and search functionality.
+              Integrated Cloudinary for image storage. Used PostgreSQL for
+              structured data storage.
             </div>
           </div>
 
@@ -145,7 +151,12 @@ const Projects = () => {
                 <SiCloudinary />
               </div>
             </div>
-            <a target="_blank"  href="https://github.com/PancerMaksym/portfilio-service/">Visit</a>
+            <a
+              target="_blank"
+              href="https://github.com/PancerMaksym/portfilio-service/"
+            >
+              Visit
+            </a>
           </div>
         </div>
         <div className="image">
@@ -155,16 +166,15 @@ const Projects = () => {
       <div className="project">
         <div className="info">
           <div className="text">
-            <h3>Shopify Shop</h3>
+            <h3>E-commerce Shop</h3>
             <div>
               The e-commerce platform is built with Next.js, using TypeScript
-              for type safety and SCSS for styling. Product pages are stored in
-              local state using Zustand.
+              for type safety and SCSS for styling. Managed product state using
+              Zustand.
               <br />
-              With Storefront API and Admin API, users can register, add
-              products to the cart, place orders, and pay via Stripe. PostgreSQL
-              is used to link the cart to individual users, and order history is
-              available for review.
+              Integrated Shopify Storefront and Admin APIs for product and order
+              management. PostgreSQL is used to link the cart to individual
+              users, and order history is available for review.
             </div>
           </div>
           <div className="footer">
@@ -179,7 +189,9 @@ const Projects = () => {
                 <SiShopify />
               </div>
             </div>
-            <a target="_blank"  href="https://next-shopify-xi.vercel.app/">Visit</a>
+            <a target="_blank" href="https://next-shopify-xi.vercel.app/">
+              Visit
+            </a>
           </div>
         </div>
         <div className="image">
@@ -191,12 +203,11 @@ const Projects = () => {
           <div className="text">
             <h3>Weather Site</h3>
             <div>
-              A single-page application that retrieves and displays weather data
-              for multiple cities using the OpenWeather API. The project
-              features persistent storage of user-selected cities and weather
-              information in LocalStorage, responsive design styled with SCSS,
-              and an interactive map with markers providing real-time weather
-              insights for each location.
+              Built a single-page weather application using OpenWeather API. The
+              project features persistent storage of user-selected cities and
+              weather information in LocalStorage, responsive design styled with
+              SCSS, and an interactive map with markers providing real-time
+              weather insights for each location.
             </div>
           </div>
           <div className="footer">
@@ -210,7 +221,9 @@ const Projects = () => {
                 <SiVite />
               </div>
             </div>
-            <a target="_blank"  href="https://info-weather.vercel.app/">Visit</a>
+            <a target="_blank" href="https://info-weather.vercel.app/">
+              Visit
+            </a>
           </div>
         </div>
         <div className="image">

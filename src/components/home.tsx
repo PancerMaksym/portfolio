@@ -12,16 +12,16 @@ const Home = () => {
       <div className="hello">
         <h3 className="i-am">I'm a</h3>
         <h1 className="software">
-          Web
-          <br /> Developer
+          Full-Stack
+          <br />
+          Web Developer
         </h1>
       </div>
       <div className="short-text">
-        Hi, i'm Pantsyr Maksym,
-        <br />a web-developer. <br />
-        Let's create a cool
+        Hi, I'm Pantsyr Maksym, a Web Developer.
         <br />
-        site together.
+        Let's build modern and scalable <br />
+        applications together.
       </div>
       <div className="scroll-bundle">
         <div className="scroll-text">Scroll down</div>

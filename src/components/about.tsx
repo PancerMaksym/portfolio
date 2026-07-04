@@ -10,24 +10,24 @@ const About = () => {
           <h3>Who am I?</h3>
 
           <p>
-            I'm a web developer focused on building fast, responsive, and
-            maintainable applications using modern frontend and backend
+            I'm a Web Developer focused on building fast, responsive, and
+            maintainable web applications using modern frontend and backend
             technologies.
           </p>
 
           <p>
-            My goal is to create clean user interfaces and efficient systems
-            that provide a smooth user experience.
+            My goal is to build clean user interfaces and efficient systems that
+            deliver a smooth user experience.
           </p>
         </div>
         <div className="what">
-          <h3>What i do?</h3>
+          <h3>What I do</h3>
           <div className="variants">
             <div>Frontend Development</div>
             <div>Backend Development</div>
-            <div>UI/UX Basics & Design in Figma</div>
-            <div>Simple Architecture</div>
-            <div>Microservice Architecture</div>
+            <div>UI/UX Design (Figma Basics)</div>
+            <div>System Architecture Fundamentals</div>
+            <div>Microservices Architecture</div>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ const About = () => {
             <br />
             Design is so simple,
             <br />
-            that's why it is so complicated"
+            that's why it is so complicated."
           </div>
           <div className="author">Paul Rand</div>
         </div>
@@ -58,10 +58,12 @@ const About = () => {
           <h3>Education</h3>
           <div className="variants">
             <div>
-              Bachelor's Computer Engineering - CHNU Yuriy Fedkovych (2020-2024)
+              Bachelor’s Degree in Computer Engineering - CHNU Yuriy Fedkovych
+              (2020-2024)
             </div>
             <div>
-              Master's Computer Engineering - CHNU Yuriy Fedkovych (2024-Today)
+              Master’s Degree in Computer Engineering - CHNU Yuriy Fedkovych
+              (2024-2026)
             </div>
           </div>
         </div>
