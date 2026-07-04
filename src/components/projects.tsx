@@ -65,6 +65,44 @@ const Projects = () => {
       <div className="project">
         <div className="info">
           <div className="text">
+            <h3>ResumeHub</h3>
+            <div>
+              Built a full-stack application using Next.js and NestJS.
+              Implemented JWT-based authentication and user management system.
+              Designed REST API for resume creation and search functionality.
+              Integrated Cloudinary for image storage. Used PostgreSQL for
+              structured data storage.
+            </div>
+          </div>
+
+          <div className="footer">
+            <div className="technology">
+              <h4>Technologies</h4>
+              <div className="icon">
+                <SiNextdotjs />
+                <SiNestjs />
+                <SiSass />
+                <SiTypescript />
+                <SiGraphql />
+                <SiPostgresql />
+                <SiCloudinary />
+              </div>
+            </div>
+            <a
+              target="_blank"
+              href="https://github.com/PancerMaksym/portfilio-service/"
+            >
+              Visit
+            </a>
+          </div>
+        </div>
+        <div className="image">
+          <StaticImage alt="ResumeIcon" src="../images/resume.png" />
+        </div>
+      </div>
+      <div className="project">
+        <div className="info">
+          <div className="text">
             <h3>MyPortfolio</h3>
             <div>
               Developed a personal portfolio website using React, Next.js, and
@@ -123,44 +161,6 @@ const Projects = () => {
         </div>
         <div className="image">
           <StaticImage alt="BuisnesCard" src="../images/bcard.png" />
-        </div>
-      </div>
-      <div className="project">
-        <div className="info">
-          <div className="text">
-            <h3>ResumeHub</h3>
-            <div>
-              Built a full-stack application using Next.js and NestJS.
-              Implemented JWT-based authentication and user management system.
-              Designed REST API for resume creation and search functionality.
-              Integrated Cloudinary for image storage. Used PostgreSQL for
-              structured data storage.
-            </div>
-          </div>
-
-          <div className="footer">
-            <div className="technology">
-              <h4>Technologies</h4>
-              <div className="icon">
-                <SiNextdotjs />
-                <SiNestjs />
-                <SiSass />
-                <SiTypescript />
-                <SiGraphql />
-                <SiPostgresql />
-                <SiCloudinary />
-              </div>
-            </div>
-            <a
-              target="_blank"
-              href="https://github.com/PancerMaksym/portfilio-service/"
-            >
-              Visit
-            </a>
-          </div>
-        </div>
-        <div className="image">
-          <StaticImage alt="ResumeIcon" src="../images/resume.png" />
         </div>
       </div>
       <div className="project">
