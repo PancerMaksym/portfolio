@@ -68,6 +68,24 @@
     flex-direction: column;
     gap: 32px;
   }
+  .carear {
+    .variants {
+      .job {
+        .name {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+          margin-bottom: 1rem;
+          .time {
+            font-size: 0.85rem;
+          }
+          * {
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (width < 550px) {
@@ -80,7 +98,7 @@
     .middle {
       grid-row: 1;
       grid-column: 1;
-      
+
       .photo {
         height: 100%;
       }

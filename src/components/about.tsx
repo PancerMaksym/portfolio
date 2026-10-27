@@ -67,6 +67,32 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div className="carear">
+          <h3>Work Experience</h3>
+          <div className="variants">
+            <div className="job">
+              <div className="name">
+                <h4>Frontend Developer Intern — TenThousand</h4>
+                <div className="time">September 2026 – November 2026</div>
+              </div>
+
+              <ul className="variants">
+                <li>
+                  Participating in a structured 3-month frontend development
+                  internship focused on React.
+                </li>
+                <li>
+                  Completing technical learning modules and assessments covering
+                  frontend development concepts.
+                </li>
+                <li>
+                  Developing skills in JavaScript, TypeScript, and React through
+                  a structured training program.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
