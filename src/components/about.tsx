@@ -72,7 +72,7 @@ const About = () => {
           <div className="variants">
             <div className="job">
               <div className="name">
-                <h4>Frontend Developer Intern — TenThousand</h4>
+                <div>Frontend Developer Intern — TenThousand</div>
                 <div className="time">September 2026 – November 2026</div>
               </div>
 
